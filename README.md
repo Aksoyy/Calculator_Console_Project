@@ -12,4 +12,42 @@ Kullanıcıdan alınan değerin kontrolü main içindeki switch'de kontrol edili
 veri tiplerini 2 biçimde kullanarak döngü ile kullanıcıdan giriş sağlanmaktadır.
 
 Kullanıcının girdiği değerlerin kontrolü yapılarak istenmeyen şekilde programın
-sonlanması engellenmesi için koşul durumları kullanılmalıdır.
+sonlanması engellenmesi için try-catch mantığı kullanılır. Bu özellik kullanıcıdan alınan değerlerin
+olduğu yerde uygulanır.
+
+Örnek:
+---YAPILACAK ISLEMI SECINIZ---
+1-Toplama islemi
+2-Cikarma islemi
+3- Carpma islemi
+4- Bolme islemi
+5- Faktoriyel islemi
+6- Rastgele sayi uretimi
++7- Cikis komutu 
+
+Lutfen seciminizi yapiniz : 
+lklk1,78
+Hata: Lütfen int tipinde bir sayı giriniz!
+17
+-Belirlenen aralikta bir deger giriniz-
+Tekrar secim yapmak icin enter'a basiniz
+
+---YAPILACAK ISLEMI SECINIZ---
+1-Toplama islemi
+2-Cikarma islemi
+3- Carpma islemi
+4- Bolme islemi
+5- Faktoriyel islemi
+6- Rastgele sayi uretimi
++7- Cikis komutu 
+
+Lutfen seciminizi yapiniz : 
+5
+Lutfen bir tam sayi giriniz : 
+1,7
+Hata: Lütfen integer tipinde bir sayı giriniz!
+llj3
+Hata: Lütfen integer tipinde bir sayı giriniz!
+7
+Islemin sonucu : 5040.0
+Islemlerin devam etmesi icin enter'a basiniz
