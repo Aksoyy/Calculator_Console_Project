@@ -55,3 +55,19 @@ Hata: Lütfen integer tipinde bir sayı giriniz!
 7
 Islemin sonucu : 5040.0
 Islemlerin devam etmesi icin enter'a basiniz
+
+---YAPILACAK ISLEMI SECINIZ---
+1-Toplama islemi
+2-Cikarma islemi
+3- Carpma islemi
+4- Bolme islemi
+5- Faktoriyel islemi
+6- Rastgele sayi uretimi
++7- Mod islemi 
+8- Ust kuvvetini alma islemi 
+9- Cikis islemi 
+
+Lutfen seciminizi yapiniz : 
+9
+Cikis islemi basladi.
+Cikis yapıldi
