@@ -1,11 +1,11 @@
-Explanation of the calculator project
+Hesap Makinesi Projesi
 
 Projenin başlangıcında gerekli import ve package işlemleri yapıldı.
-İlk başta kullanıcının karşısına MenuSecim() fonksiyonu içinde çağırılan MenuOpen()
-fonksiyonu çıkar. Bu fonksiyonu MenuSecim fonksiyonu içinde çağırmamdaki sebep seçilen
-değerin 0-7 arasında bulunduğu sürece sürekliliği sağlamaktır.
+İlk başta kullanıcının karşısına MenuPrefer() fonksiyonu içinde çağırılan MenuOpen()
+fonksiyonu çıkar. Bu fonksiyonu MenuPrefer fonksiyonu içinde çağırmamdaki sebep seçilen
+değerin 0-9 arasında bulunduğu sürece sürekliliği sağlamaktır.
 Daha sonra kullanıcıdan menu içerisindeki işlem seçeneğini seçmesi beklenir.
-Eğer girilen değer 0-7 arasında değilse uyarı mesajı vererek kullanıcıdan tekrar
+Eğer girilen değer 0-9 arasında değilse uyarı mesajı vererek kullanıcıdan tekrar
 seçim yapması istenmektedir.
 
 Kullanıcıdan alınan değerin kontrolü main içindeki switch'de kontrol edilirken, kullanılan
@@ -15,15 +15,19 @@ Kullanıcının girdiği değerlerin kontrolü yapılarak istenmeyen şekilde pr
 sonlanması engellenmesi için try-catch mantığı kullanılır. Bu özellik kullanıcıdan alınan değerlerin
 olduğu yerde uygulanır.
 
+Örnek Çalışma Videosu : https://youtu.be/oYlLcc1TnvE
+
 Örnek:
 ---YAPILACAK ISLEMI SECINIZ---
-1-Toplama islemi
-2-Cikarma islemi
-3- Carpma islemi
-4- Bolme islemi
-5- Faktoriyel islemi
-6- Rastgele sayi uretimi
-+7- Cikis komutu 
+				 	1-Toplama islemi
+					2-Cikarma islemi
+					3- Carpma islemi
+					4- Bolme islemi
+					5- Faktoriyel islemi
+					6- Rastgele sayi uretimi
+					7- Mod islemi
+					8- Ust kuvvetini alma islemi
+					9- Cikis islemi 
 
 Lutfen seciminizi yapiniz : 
 lklk1,78
